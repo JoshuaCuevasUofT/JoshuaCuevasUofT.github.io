@@ -8,8 +8,6 @@ Using a regression model, we aimed to pinpoint the heavy hitters among these fac
 
 It's not just number-crunching – we can create practical solutions for professors and students. Quantifying how best to spend your time to make acing courses a breeze.
 
-
-
-<img src="images/project1/output3.png?raw=true"/>
+[Regression Analysis of Student Success Factors: STA302 Final Project](pdf/STA302-Final-Project.pdf)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
