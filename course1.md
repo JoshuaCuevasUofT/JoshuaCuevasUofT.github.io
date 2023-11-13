@@ -137,4 +137,3 @@ plt.title('Histogram of rides by drop-off location', fontsize=16);
 
 <img src="images/project1/output3.png?raw=true"/>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
