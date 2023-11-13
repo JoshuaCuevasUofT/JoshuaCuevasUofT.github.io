@@ -19,12 +19,12 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Visualizing Lightning Strikes Over Time](https://public.tableau.com/views/Long-LatmapsHeatmapsBoxplotsHistograms/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[![Seoul Bike Efficient Bike Maintenance Timing](images/dummy_thumbnail.jpg)](https://public.tableau.com/views/SeoulBikeEfficientBikeMaintananceTiming/Sheet12?:language=en-US&:display_count=n&:origin=viz_share_link)
-
+[Interactive Lightning Strikes Over Time](https://public.tableau.com/views/InteractiveLightningStrikesOverTime/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
