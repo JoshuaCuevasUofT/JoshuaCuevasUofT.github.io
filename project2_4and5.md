@@ -74,7 +74,7 @@ df[["tip_amount","total_amount","mta_tax"]].describe()
 
 ```
 
-<img src="images/project 2/1.png?raw=true"/>
+<img src="images/project 2/1.PNG?raw=true"/>
 
 Convert pickup & dropoff columns to datetime and create duration column
 
