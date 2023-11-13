@@ -18,7 +18,9 @@ sns.histplot(df['trip_distance'], bins=range(0,26,1))
 plt.title('Trip distance histogram')
 ```
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/project1/7?raw=true"/>
+<img src="images/project1/8?raw=true"/>
+
 
 Separating the tip amount by vendor reveals that there are no noticeable aberrations in the distribution of tips between the two vendors in the dataset. Vendor two has a slightly higher share of the rides, and this proportion is approximately maintained for all tip amounts.
 
@@ -34,24 +36,7 @@ ax.set_xticklabels(range(0,21,1))
 plt.title('Tip amount by vendor histogram')
 ```
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-The proportions hold steady even at higher tip amounts, except at the very highest extreme. However, this isn't noteworthy given the limited sample size at these tip amounts.
-
-```python
-# Create histogram of tip_amount by vendor for tips > $10 
-tips_over_ten = df[df['tip_amount'] > 10]
-plt.figure(figsize=(12,7))
-ax = sns.histplot(data=tips_over_ten, x='tip_amount', bins=range(10,21,1), 
-                  hue='VendorID', 
-                  multiple='stack',
-                  palette='pastel')
-ax.set_xticks(range(10,21,1))
-ax.set_xticklabels(range(10,21,1))
-plt.title('Tip amount by vendor histogram')
-```
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/project1/6?raw=true"/>
 
 Tip amounts show minimal variation based on passenger count. While there's a noticeable dip for four-passenger rides, this is anticipated due to the lower frequency of such rides in the dataset, second only to rides with zero passengers.
 
@@ -69,7 +54,7 @@ ax.legend()
 plt.title('Mean tip amount by passenger count', fontsize=16)
 ```
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/project1/5?raw=true"/>
 
 Unexpectedly, Wednesday to Saturday recorded the highest daily ride numbers, with Sunday and Monday having the fewest.
 
@@ -82,7 +67,7 @@ ax.set_ylabel('Count')
 plt.title('Ride count by day', fontsize=16)
 ```
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/project1/output4?raw=true"/>
 
 ### 2. Plot mean trip distance by drop-off location
 
@@ -128,7 +113,8 @@ ax.set_ylabel('Mean distance to all other points')
 ax.set_title('Mean distance between points taken randomly from normal distribution');
 ```
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/project1/output?raw=true"/>
+<img src="images/project1/output2?raw=true"/>
 
 ### 3. Histogram of rides by drop-off location
 
@@ -149,6 +135,6 @@ plt.xlabel('Drop-off locations')
 plt.title('Histogram of rides by drop-off location', fontsize=16);
 ```
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/project1/output3?raw=true"/>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
