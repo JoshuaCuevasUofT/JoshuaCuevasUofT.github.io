@@ -8,7 +8,7 @@
 
 ---
 [Urban Pulse: Analyzing Tip Amounts and Drop-off Distance](/course1)
-<img src="images/project 2/cumul.png?raw=true"/>
+<img src="images/project1/cumul.png?raw=true"/>
 
 ---
 
