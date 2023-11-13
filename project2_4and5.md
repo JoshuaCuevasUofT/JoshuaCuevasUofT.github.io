@@ -73,7 +73,7 @@ df.describe()
 df[["tip_amount","total_amount","mta_tax"]].describe()
 ```
 
-<img src="images/project 2/1.png?raw=true"/>
+<img src="images/project 2/1.PNG?raw=true"/>
 
 Convert pickup & dropoff columns to datetime and create duration column
 
@@ -231,7 +231,7 @@ df.loc[(df.day != 'saturday') & (df.day != 'sunday'), 'rush_hour'] = df.apply(ru
 df[["rush_hour","mean_duration","mean_distance", "pickup_dropoff"]].head()
 ```
 
-<img src="images/project 2/3.png?raw=true"/>
+<img src="images/project 2/3.PNG?raw=true"/>
 
 ### 7. Scatter plots, pair plots and correlation tables/heatmaps
 
@@ -355,7 +355,7 @@ results = pd.DataFrame(data={'actual': y_test['fare_amount'],
 results['residual'] = results['actual'] - results['predicted']
 results.head()
 ```
-<img src="images/project 2/7.png?raw=true"/>
+<img src="images/project 2/7.PNG?raw=true"/>
 
 Scatterplot for Actual versus Predicted data points
 
@@ -420,7 +420,7 @@ print(X_train['mean_distance'].std())
 print(7.133867 / X_train['mean_distance'].std())
 ```
 
-<img src="images/project 2/11.png?raw=true"/>
+<img src="images/project 2/11.PNG?raw=true"/>
 
 
 3.600633254666103
