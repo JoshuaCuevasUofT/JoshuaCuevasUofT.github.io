@@ -74,7 +74,7 @@ df[["tip_amount","total_amount","mta_tax"]].describe()
 
 ```
 
-<img src="images/project2/1.png?raw=true"/>
+<img src="images/project 2/1.png?raw=true"/>
 
 Convert pickup & dropoff columns to datetime and create duration column
 
@@ -113,7 +113,7 @@ sns.boxplot(ax=axes[2], x=df['duration'])
 plt.show();
 ```
 
-<img src="images/project2/2.png?raw=true"/>
+<img src="images/project 2/2.png?raw=true"/>
 
 ### 5. Imputations
 
@@ -232,7 +232,7 @@ df.loc[(df.day != 'saturday') & (df.day != 'sunday'), 'rush_hour'] = df.apply(ru
 df[["rush_hour","mean_duration","mean_distance", "pickup_dropoff"]].head()
 ```
 
-<img src="images/project2/3.png?raw=true"/>
+<img src="images/project 2/3.png?raw=true"/>
 
 ### 7. Scatter plots, pair plots and correlation tables/heatmaps
 
@@ -251,7 +251,7 @@ plt.xlim(0, 70)
 plt.title('Mean duration x fare amount')
 plt.show()
 ```
-<img src="images/project2/4.png?raw=true"/>
+<img src="images/project 2/4.png?raw=true"/>
 
 After dropping features that are redundant and irrelevant or won't be avaible in a deployed enviroment I create a pairplot to visualize pairwise relationships between `fare_amount`, `mean_duration`, and `mean_distance`.
 
@@ -261,7 +261,7 @@ sns.pairplot(df2[['fare_amount', 'mean_duration', 'mean_distance']],
              )
 ```
 
-<img src="images/project2/5.png?raw=true"/>
+<img src="images/project 2/5.png?raw=true"/>
 
 Next we should create a correlation matrix to help determine most correlated variables.
 ```python
@@ -275,7 +275,7 @@ plt.title('Correlation heatmap',
 plt.show()
 ```
 
-<img src="images/project2/6.png?raw=true"/>
+<img src="images/project 2/6.png?raw=true"/>
 
 ### 8. Constructing the model
 
@@ -356,7 +356,7 @@ results = pd.DataFrame(data={'actual': y_test['fare_amount'],
 results['residual'] = results['actual'] - results['predicted']
 results.head()
 ```
-<img src="images/project2/7.png?raw=true"/>
+<img src="images/project 2/7.png?raw=true"/>
 
 Scatterplot for Actual versus Predicted data points
 
@@ -375,7 +375,7 @@ sns.scatterplot(x='actual',
 plt.plot([0,60], [0,60], c='red', linewidth=2)
 plt.title('Actual vs. predicted');
 ```
-<img src="images/project2/8.png?raw=true"/>
+<img src="images/project 2/8.png?raw=true"/>
 
 Visualize the distribution of the `residuals` using a histogram
 The leftover variance, aka residuals, dances in a nearly normal distribution with an average of -0.015.
@@ -389,7 +389,7 @@ plt.xlabel('residual value')
 plt.ylabel('count');
 ```
 
-<img src="images/project2/9.png?raw=true"/>
+<img src="images/project 2/9.png?raw=true"/>
 
 Create a scatterplot of `residuals` over `predicted`.
 Residuals extist above and below zero, which is expected. Those sloping lines are from the $62.50 cap and $52 JFK flat rate we plugged in.
@@ -404,7 +404,7 @@ plt.xlabel('predicted value')
 plt.ylabel('residual value')
 plt.show()
 ```
-<img src="images/project2/10.png?raw=true"/>
+<img src="images/project 2/10.png?raw=true"/>
 
 ### 10. Coefficients
 The heavy hitter in the prediction game is mean_distance. But, hold your horses! Don't fall for the trap. It's not a simple "for every mile" tale. 
@@ -421,7 +421,7 @@ print(X_train['mean_distance'].std())
 print(7.133867 / X_train['mean_distance'].std())
 ```
 
-<img src="images/project2/11.png?raw=true"/>
+<img src="images/project 2/11.png?raw=true"/>
 
 
 3.600633254666103
