@@ -14,4 +14,4 @@ It's not just number-crunching – we can create practical solutions for profess
 
 [R Code](images/misc/Final-Project-v2.R)
 
-[Rmd Code](images/misc/Final-Project v2.Rmd)
+[Rmd Code](images/misc/Final Project v2.Rmd)
