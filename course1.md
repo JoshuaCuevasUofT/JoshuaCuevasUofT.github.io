@@ -18,7 +18,7 @@ sns.histplot(df['trip_distance'], bins=range(0,26,1))
 plt.title('Trip distance histogram')
 ```
 
-<img src="images/project1/7?raw=true"/>
+<img src="images/project1/7.png?raw=true"/>
 <img src="images/project1/8?raw=true"/>
 
 
