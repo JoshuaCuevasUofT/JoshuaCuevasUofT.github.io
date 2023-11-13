@@ -11,6 +11,10 @@
 <img src="images/project1/cumul.png?raw=true"/>
 
 ---
+[Regression Analysis of Student Success Factors: STA302 Final Project](/stats_project)
+<img src="images/project1/school project.png?raw=true"/>
+
+---
 
 ### Data Visualization/Tableau Projects
 
