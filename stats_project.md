@@ -11,3 +11,7 @@ It's not just number-crunching – we can create practical solutions for profess
 <embed src="https://github.com/JoshuaCuevasUofT/JoshuaCuevasUofT.github.io/blob/master/pdf/STA302-Final-Project.pdf" width="600" height="800" type="application/pdf">
 
 [Regression Analysis of Student Success Factors: STA302 Final Project](pdf/STA302-Final-Project.pdf)
+
+[R Code](images/misc/Final-Project-v2.R)
+
+[Rmd Code](images/misc/Final-Project v2.Rmd)
