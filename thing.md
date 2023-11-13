@@ -1,5 +1,17 @@
 ### Data Visualization/Tableau Projects
 
 #### [Urban Pulse: Features and Regression Models](/project2_4and5)
-<div class='tableauPlaceholder' id='viz1699873178537' style='position: relative'><noscript><a href='#'><img alt=' ' src='https://public.tableau.com/static/images/Se/SeoulBikeEfficientBikeMaintananceTiming/Sheet12/1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='SeoulBikeEfficientBikeMaintananceTiming/Sheet12' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https://public.tableau.com/static/images/Se/SeoulBikeEfficientBikeMaintananceTiming/Sheet12/1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div><script type='text/javascript'>var divElement = document.getElementById('viz1699873178537');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
+[![Urban Pulse](images/project2/cumul.png?raw=true)](https://public.tableau.com/views/YourTableauVizURL)
 Transformed raw data into stunning visualizations and unleashed powerful regression models. 📊✨
+
+#### [Urban Pulse: Analyzing Tip Amounts and Drop-off Distance](/course1)
+[![Tip Analysis](images/project1/cumul.png?raw=true)](https://public.tableau.com/views/YourTableauVizURL)
+Dived deep into tip amounts and drop-off distance, turning boring data into captivating insights. 💸🚖
+
+#### [Cryptocurrency Market Insights](/crypto_insights)
+[![Crypto Insights](images/cryptomarket.png?raw=true)](https://public.tableau.com/views/YourTableauVizURL)
+Crafted an eye-catching Tableau dashboard to showcase live cryptocurrency market trends. 📈💰
+
+#### [Algorithmic Trading Backtesting](/trading_backtest)
+[![Trading Backtest](images/tradingbacktest.png?raw=true)](https://public.tableau.com/views/YourTableauVizURL)
+Visualized historical market data, proving the viability of algorithmic trading strategies. 💼📉
