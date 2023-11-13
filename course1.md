@@ -18,6 +18,8 @@ sns.histplot(df['trip_distance'], bins=range(0,26,1))
 plt.title('Trip distance histogram')
 ```
 
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 Separating the tip amount by vendor reveals that there are no noticeable aberrations in the distribution of tips between the two vendors in the dataset. Vendor two has a slightly higher share of the rides, and this proportion is approximately maintained for all tip amounts.
 
 ```python
@@ -31,6 +33,8 @@ ax.set_xticks(range(0,21,1))
 ax.set_xticklabels(range(0,21,1))
 plt.title('Tip amount by vendor histogram')
 ```
+
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 The proportions hold steady even at higher tip amounts, except at the very highest extreme. However, this isn't noteworthy given the limited sample size at these tip amounts.
 
@@ -46,6 +50,8 @@ ax.set_xticks(range(10,21,1))
 ax.set_xticklabels(range(10,21,1))
 plt.title('Tip amount by vendor histogram')
 ```
+
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 Tip amounts show minimal variation based on passenger count. While there's a noticeable dip for four-passenger rides, this is anticipated due to the lower frequency of such rides in the dataset, second only to rides with zero passengers.
 
@@ -63,6 +69,8 @@ ax.legend()
 plt.title('Mean tip amount by passenger count', fontsize=16)
 ```
 
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 Unexpectedly, Wednesday to Saturday recorded the highest daily ride numbers, with Sunday and Monday having the fewest.
 
 ```python
@@ -73,6 +81,8 @@ ax.set_xticklabels(day_order)
 ax.set_ylabel('Count')
 plt.title('Ride count by day', fontsize=16)
 ```
+
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ### 2. Plot mean trip distance by drop-off location
 
@@ -118,6 +128,8 @@ ax.set_ylabel('Mean distance to all other points')
 ax.set_title('Mean distance between points taken randomly from normal distribution');
 ```
 
+<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
 ### 3. Histogram of rides by drop-off location
 
 Note that among the 200+ drop-off locations, a small set attracts the majority of traffic, while the rest receive fewer trips. It's probable that these high-traffic spots are close to popular tourist attractions like the Empire State Building or Times Square, airports, and transit hubs. Unfortunately, the data lacks information on the specific location corresponding to each ID, which would have been quite useful.
@@ -137,12 +149,6 @@ plt.xlabel('Drop-off locations')
 plt.title('Histogram of rides by drop-off location', fontsize=16);
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
-
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
