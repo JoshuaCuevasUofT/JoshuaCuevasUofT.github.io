@@ -16,15 +16,15 @@
 
 [Seoul Bike Efficient Bike Maintanance Timing](https://public.tableau.com/views/SeoulBikeEfficientBikeMaintananceTiming/Sheet12?:language=en-US&:display_count=n&:origin=viz_share_link){:target="_blank"}
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/tableua/bikes.png?raw=true"/>
 
 ---
-[Visualizing Lightning Strikes Over Time](https://public.tableau.com/views/Long-LatmapsHeatmapsBoxplotsHistograms/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Visualizing Lightning Strikes Over Time](https://public.tableau.com/views/Long-LatmapsHeatmapsBoxplotsHistograms/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link){:target="_blank"}
+<img src="images/tableua/lightning visuals2.png?raw=true"/>
 
 ---
-[Interactive Lightning Strikes Over Time](https://public.tableau.com/views/InteractiveLightningStrikesOverTime/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Interactive Lightning Strikes Over Time](https://public.tableau.com/views/InteractiveLightningStrikesOverTime/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link){:target="_blank"}
+<img src="images/tableua/lightning.png?raw=true"/>
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
