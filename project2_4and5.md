@@ -71,10 +71,9 @@ We've got outliers, like a hefty $200 tip and a whopping $1,200 total amount. Pl
 # Display descriptive stats about the data
 df.describe()
 df[["tip_amount","total_amount","mta_tax"]].describe()
-
 ```
 
-<img src="images/project 2/1.PNG?raw=true"/>
+<img src="images/project 2/1.png?raw=true"/>
 
 Convert pickup & dropoff columns to datetime and create duration column
 
