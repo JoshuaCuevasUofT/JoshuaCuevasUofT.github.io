@@ -430,4 +430,3 @@ print(7.133867 / X_train['mean_distance'].std())
 
 More work must be done to prepare the predictions to be used as inputs into the model. Specifically, imputing constant fare rate of $52 for all trips with rate code "2."
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
