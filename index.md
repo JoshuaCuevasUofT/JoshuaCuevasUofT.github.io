@@ -7,8 +7,8 @@
 <img src="images/project 2/cumul.png?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Urban Pulse: Analyzing Tip Amounts and Drop-off Distance](/course1)
+<img src="images/project 2/cumul.png?raw=true"/>
 
 ---
 
