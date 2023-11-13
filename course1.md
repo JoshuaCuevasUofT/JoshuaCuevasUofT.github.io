@@ -1,4 +1,4 @@
-## This can be your internal website page / project page
+## Urban Pulse: Decoding NYC's Taxi Tapestry - Analyzing Tip Amounts and Drop Off Distance
 
 **Project description:** Embark on a data journey through the bustling streets of New York City with my EDA project for the New York City Taxi and Limousine Commission (NYC TLC). In this project I uncover the secrets of taxi ridership and visualize the pulse of the city through EDA and data visualization work. Including data structuring and cleaning, as well as any matplotlib/seaborn and tableau visualizations created to help understand the data. 
 
