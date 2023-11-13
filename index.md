@@ -12,7 +12,7 @@
 
 ---
 [Regression Analysis of Student Success Factors: STA302 Final Project](/stats_project)
-<img src="images/misc/school project.png?raw=true"/>
+<img src="images/misc pics/school project.png?raw=true"/>
 
 ---
 
