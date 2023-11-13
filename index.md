@@ -14,7 +14,7 @@
 
 ### Data Visualization/Tableau Projects
 
-[Seoul Bike Efficient Bike Maintanance Timing](https://public.tableau.com/views/SeoulBikeEfficientBikeMaintananceTiming/Sheet12?:language=en-US&:display_count=n&:origin=viz_share_link)
+[Seoul Bike Efficient Bike Maintanance Timing](https://public.tableau.com/views/SeoulBikeEfficientBikeMaintananceTiming/Sheet12?:language=en-US&:display_count=n&:origin=viz_share_link){:target="_blank"}
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
