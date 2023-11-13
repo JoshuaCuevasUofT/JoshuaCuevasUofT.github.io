@@ -23,8 +23,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[![Seoul Bike Efficient Bike Maintenance Timing](images/dummy_thumbnail.jpg)](https://public.tableau.com/views/SeoulBikeEfficientBikeMaintananceTiming/Sheet12?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
 ---
