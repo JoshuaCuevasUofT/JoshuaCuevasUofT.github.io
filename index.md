@@ -14,7 +14,8 @@
 
 ### Data Visualization/Tableau Projects
 
-[Project 1 Title](/sample_page)
+[Seoul Bike Efficient Bike Maintanance Timing]([https://public.tableau.com/views/YourTableauVizURL](https://public.tableau.com/views/SeoulBikeEfficientBikeMaintananceTiming/Sheet12?:language=en-US&:display_count=n&:origin=viz_share_link))
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
