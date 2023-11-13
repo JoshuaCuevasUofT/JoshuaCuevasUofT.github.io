@@ -11,5 +11,3 @@ It's not just number-crunching – we can create practical solutions for profess
 <embed src="https://github.com/JoshuaCuevasUofT/JoshuaCuevasUofT.github.io/blob/master/pdf/STA302-Final-Project.pdf" width="600" height="800" type="application/pdf">
 
 [Regression Analysis of Student Success Factors: STA302 Final Project](pdf/STA302-Final-Project.pdf)
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
