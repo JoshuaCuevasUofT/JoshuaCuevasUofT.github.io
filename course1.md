@@ -19,7 +19,7 @@ plt.title('Trip distance histogram')
 ```
 
 <img src="images/project1/7.png?raw=true"/>
-<img src="images/project1/8?raw=true"/>
+<img src="images/project1/8.png?raw=true"/>
 
 
 Separating the tip amount by vendor reveals that there are no noticeable aberrations in the distribution of tips between the two vendors in the dataset. Vendor two has a slightly higher share of the rides, and this proportion is approximately maintained for all tip amounts.
@@ -36,7 +36,7 @@ ax.set_xticklabels(range(0,21,1))
 plt.title('Tip amount by vendor histogram')
 ```
 
-<img src="images/project1/6?raw=true"/>
+<img src="images/project1/6.png?raw=true"/>
 
 Tip amounts show minimal variation based on passenger count. While there's a noticeable dip for four-passenger rides, this is anticipated due to the lower frequency of such rides in the dataset, second only to rides with zero passengers.
 
@@ -54,7 +54,7 @@ ax.legend()
 plt.title('Mean tip amount by passenger count', fontsize=16)
 ```
 
-<img src="images/project1/5?raw=true"/>
+<img src="images/project1/5.png?raw=true"/>
 
 Unexpectedly, Wednesday to Saturday recorded the highest daily ride numbers, with Sunday and Monday having the fewest.
 
@@ -67,7 +67,7 @@ ax.set_ylabel('Count')
 plt.title('Ride count by day', fontsize=16)
 ```
 
-<img src="images/project1/output4?raw=true"/>
+<img src="images/project1/output4.png?raw=true"/>
 
 ### 2. Plot mean trip distance by drop-off location
 
@@ -113,8 +113,8 @@ ax.set_ylabel('Mean distance to all other points')
 ax.set_title('Mean distance between points taken randomly from normal distribution');
 ```
 
-<img src="images/project1/output?raw=true"/>
-<img src="images/project1/output2?raw=true"/>
+<img src="images/project1/output.png?raw=true"/>
+<img src="images/project1/output2.png?raw=true"/>
 
 ### 3. Histogram of rides by drop-off location
 
@@ -135,6 +135,6 @@ plt.xlabel('Drop-off locations')
 plt.title('Histogram of rides by drop-off location', fontsize=16);
 ```
 
-<img src="images/project1/output3?raw=true"/>
+<img src="images/project1/output3.png?raw=true"/>
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
