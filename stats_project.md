@@ -12,6 +12,8 @@ It's not just number-crunching – we can create practical solutions for profess
 
 [Regression Analysis of Student Success Factors: STA302 Final Project](pdf/STA302-Final-Project.pdf)
 
+---
 [R Code](images/misc/Final-Project-v2.R)
 
+---
 [Rmd Code](images/misc/Final Project v2.Rmd)
