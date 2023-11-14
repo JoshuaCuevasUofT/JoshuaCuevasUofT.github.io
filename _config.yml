@@ -14,5 +14,3 @@ google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
 minima:
   color_scheme: dark
-  background: '#2C221F' # Replace with your preferred background color
-  text: '#CAB7B2'      # Replace with your preferred text color
