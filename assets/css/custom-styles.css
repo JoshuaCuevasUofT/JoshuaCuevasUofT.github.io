@@ -2,3 +2,12 @@ body {
   background-color: #121212; /* Your preferred dark color */
   color: #f0f0f0; /* Egg white text color */
 }
+a {
+  color:#4feb34;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:#2f801d;
+  font-weight: bold;
+}
