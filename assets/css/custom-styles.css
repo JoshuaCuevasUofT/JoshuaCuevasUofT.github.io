@@ -11,12 +11,41 @@ a:hover, a:focus {
   color:#2f801d;
   font-weight: bold;
 }
-h1, h2, h3, h4, h5, h6 {
-  color:##f0f0f0;
-  margin:0 0 20px;
-}
+
 code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   background-color: #6a6869; /* Your preferred dark color */
   color: #f0f0f0; /* Egg white text color */
+}
+
+dt {
+  color:#f0f0f0;
+  font-weight:700;
+}
+
+th {
+  color:#f0f0f0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#f0f0f0;
+  margin:0 0 20px;
+ }
+h2 {
+  color:#f0f0f0;
+}
+
+h3, h4, h5, h6 {
+  color:#f0f0f0;
+}
+
+a small {
+  font-size:11px;
+  color:#4feb34;
+  margin-top:-0.3em;
+  display:block;
+}
+
+a:hover small {
+  color:#4feb34;
 }
