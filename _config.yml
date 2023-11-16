@@ -7,14 +7,12 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="https://www.linkedin.com/in/joshua-joel-cuevas/">View My LinkedIn Profile</a> 
 
 
-sass:
-  load_paths:
-    - _sass
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
 
-minima:
-  color_scheme: dark
+sass:
+  load_paths:
+    - _sass
