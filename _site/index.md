@@ -1,13 +1,6 @@
 ## Portfolio
 
 ---
-### Trading Analytics
-
-[Event Driven Backtesting Framework](/event_driven_backtest/readme_event_driven_backtest.md)
-<img src="event_driven_backtest\tco trade logs.PNG?raw=true"/>
-
----
-
 ### Datascience Projects
 
 [Urban Pulse: Features and Regression Models](/project2_4and5)

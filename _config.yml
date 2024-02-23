@@ -6,6 +6,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>"This intersection therefore is the use of AI to organize and create insights from huge data through cloud computing and will be something many companies will likely be incorporating in the future."<br>
   <a href="https://www.linkedin.com/in/joshua-joel-cuevas/">View My LinkedIn Profile</a> 
 
+url: "" # leave it empty for root domain
+baseurl: "" # leave it empty for root domain
 
 
 remote_theme: pages-themes/minimal@v0.2.0
