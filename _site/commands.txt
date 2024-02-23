@@ -1,0 +1,4 @@
+python -m http.server
+
+bundle exec jekyll build
+start _site/index.html  # On Windows

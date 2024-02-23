@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Event Driven Backtesting Framework Project 2024 | Joshua Joel Cuevas</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Event Driven Backtesting Framework Project 2024" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction Hi, I’m Josh. A recent graduate with passions in economics, data science, ML and cloud computing. “This intersection therefore is the use of AI to organize and create insights from huge data through cloud computing and will be something many companies will likely be incorporating in the future.” View My LinkedIn Profile" />
+<meta property="og:description" content="Introduction Hi, I’m Josh. A recent graduate with passions in economics, data science, ML and cloud computing. “This intersection therefore is the use of AI to organize and create insights from huge data through cloud computing and will be something many companies will likely be incorporating in the future.” View My LinkedIn Profile" />
+<link rel="canonical" href="/event_driven_backtest/readme_event_driven_backtest.html" />
+<meta property="og:url" content="/event_driven_backtest/readme_event_driven_backtest.html" />
+<meta property="og:site_name" content="Joshua Joel Cuevas" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Event Driven Backtesting Framework Project 2024" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Introduction Hi, I’m Josh. A recent graduate with passions in economics, data science, ML and cloud computing. “This intersection therefore is the use of AI to organize and create insights from huge data through cloud computing and will be something many companies will likely be incorporating in the future.” View My LinkedIn Profile","headline":"Event Driven Backtesting Framework Project 2024","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/selfie2%20black%20bg.jpg?raw=true"}},"url":"/event_driven_backtest/readme_event_driven_backtest.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=796678d21ea504f3ae637dd938b475ad057d4b2c">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-000000-0', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/">Joshua Joel Cuevas</a></h1>
+
+        
+          <img src="/images/selfie2%20black%20bg.jpg?raw=true" alt="Logo" />
+        
+
+        <p>Introduction  <br>Hi, I'm Josh. A recent graduate with passions in economics, data science, ML and cloud computing.<br> <br>"This intersection therefore is the use of AI to organize and create insights from huge data through cloud computing and will be something many companies will likely be incorporating in the future."<br> <a href="https://www.linkedin.com/in/joshua-joel-cuevas/">View My LinkedIn Profile</a> 
+</p>
+
+        
+        <p class="view"><a href="https://github.com/JoshuaCuevasUofT/JoshuaCuevasUofT.github.io">View the Project on GitHub <small>JoshuaCuevasUofT/JoshuaCuevasUofT.github.io</small></a></p>
+        
+
+        
+
+        
+      </header>
+      <section>
+
+      <h1 id="event-driven-backtesting-framework-project-2024">Event Driven Backtesting Framework Project 2024</h1>
+<h3 id="motivations">Motivations</h3>
+<p>This project was completed during the intermediate stage of an interview process for asset allocation research for a major Canadian bank.</p>
+
+<p>Before this I was experienced in <em>using</em> backtesting frameworks especially through Pinescript and TradingView. Additionally I had expereince <em>creating</em> vector based backtesting frameworks. Thirdly, I had experience using broker API calls to create trading bots based on (admitadly discretionary and simple) event driven strategies.</p>
+
+<p>During this project I had to combine all three of my experiences in order to create a scalable system for any future independant trading and research.</p>
+
+<h2 id="project-goals">Project Goals</h2>
+<p>The aim of this coding project is to whip up a versatile event-driven back-testing framework. This bad boy can put different trading or allocation strategies through the wringer. Whether it’s fundamental, macro, or technical signals, this framework’s got you covered.</p>
+
+<h3 id="short-term-project-goals">Short Term Project Goals:</h3>
+<p>Two strategies were conducted on a preset data set through an event handler and our framework:</p>
+
+<ol>
+  <li>
+    <p>Conduct a back-test on a trend-following strategy for the S&amp;P 500 ETF (Ticker: SPY)</p>
+  </li>
+  <li>
+    <p>Implement a back-test for a systematic derivative portfolio strategy based on the S&amp;P 500 ETF (Ticker: SPY)</p>
+    <ul>
+      <li>Holding 95% strike OTM put options for SPY shares.</li>
+      <li>Selling 105% strike OTM call options for SPY shares.</li>
+      <li>Differing contract maturities</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="output-requirements">Output requirements</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- Illustrate the net asset value of the portfolio through a time series chart.
+- Thoroughly record all transactions executed while adhering to the strategies.
+</code></pre></div></div>
+
+<h2 id="software-principles-and-scalability">Software Principles and Scalability:</h2>
+<p>A large part about quant finance research is being up to date. There are infinite insights in data and the finance industry is widely known to be the most competitive industry when it comes to profitable insights. It’s <em>imperitive</em> to be able to scale up 99% of the components within the framework. This means an incredible attention to detail when it comes to the modularity of the framework and software structure.</p>
+
+<p>In this project I ensured the scalability of modules from</p>
+<ol>
+  <li>Data Collection (Event handler, API data collection/uniformity)</li>
+  <li>Indicators</li>
+  <li>Signals</li>
+  <li>Event Creation (strategy scripting, notably similar to the tradingview formula with their pinescript scripting)</li>
+  <li>Order Creation and details</li>
+  <li>Execution module (API order maker)</li>
+</ol>
+
+<p>I’ve provided a flowchart to illustrate the modularity and interations between classes in this project.</p>
+
+<p><a href="event_driven_backtest\Event Driven Backtesting Flow Chart.pdf">Regression Analysis of Student Success Factors: STA302 Final Project</a></p>
+
+<h1 id="outputs-and-findings">Outputs and findings.</h1>
+
+<h3 id="technical-crossover-portfolio-value">Technical Crossover Portfolio Value</h3>
+
+<p><img src="event_driven_backtest\tco portfolio value.png?raw=true" /></p>
+
+<h3 id="technical-crossover-equity-curve">Technical Crossover Equity Curve</h3>
+<p><img src="event_driven_backtest\tco equity curve.png?raw=true" /></p>
+
+<h3 id="technical-crossover-signal-plot-and-highlights">Technical Crossover Signal Plot and Highlights</h3>
+<p><img src="event_driven_backtest\tco signal highlights.png?raw=true" /></p>
+
+<h3 id="techical-crossover-trade-log">Techical Crossover Trade Log</h3>
+<p><img src="event_driven_backtest\tco trade logs.PNG?raw=true" /></p>
+
+<h3 id="buy-put-options-strategy-portfolio-value">Buy Put options Strategy Portfolio Value</h3>
+<p><img src="event_driven_backtest\buy put options portfolio value.png?raw=true" /></p>
+
+<h3 id="multiasset-portfolio-value">MultiAsset Portfolio Value</h3>
+<p><img src="event_driven_backtest\multi asset portfolio value.png?raw=true" /></p>
+
+<h3 id="multiasset-trade-logs">MultiAsset Trade Logs</h3>
+<p><img src="event_driven_backtest\event_driven_backtest\multi asset trade logs.PNG?raw=true" /></p>
+
+<h3 id="final-thoughts">Final Thoughts</h3>
+
+<h1 id="1-strategy-1">1) Strategy 1:</h1>
+<p>A simple techincal crossover using moving averages. This one is a classic and employed by retail traders everywhere. The idea being that we can find reversals in the momentum of the asset price. The issue is that it is in fact only technical analysis, and very simple technical analysis at that. Over a long enough holding period and high enough time frame I’m sure this method works, of course we see it happen all the time in business cycles, but in a short period, it’s not really worth much! The bonus would have introduced transaction costs which I’m sure would have hindered this strategy heavily. The BIGGEST reason we did well with this strategy is because we were only allowed to creat LONG positions in an asset that we knew would appreciate over the long term. This one of many potential problems when backtesting called look ahead bias.</p>
+
+<h1 id="2--strategy-2">2)  Strategy 2:</h1>
+<p>This strategy is not one that I was very familiar with. I spent a good amount of time reading websites and learning the language of OTM, ITM, strike price, call option, put option, option premiums, expiration dates. It also made for good math practice when creating functions for the calculations of returns, option premiums, and even rebalancing our portfolio. In fact I spent about an hour stuck debugging code only to do the algebra with a pencil and pen only to realize my rebalancing function had a plus that should have been a minus. This strategy performed way to well to be realistic in any way. likely due to my lack of understanding when it comes to derivatives, I likely botched the closing returns. Additionally, it’s worth mentioning I used a much simpler black-scholes model to calculate my option premiums. On my own curiosity, I ended up backtesting this strategy with only the call options, and only the put options. Here I realized that put options made very little difference in our portfolio value, but the premium we made selling call options was huge. Here I’d like to point out the large assumptions we have to make to even consider backtesting while “selling” an asset. For example, if I wanted to backtest selling a 120 OTM contract every month, I’d likely make huge gains. But realistically who would buy a 120 call option that expires within a month? These assumptions combined with the lack of transaction costs means this backtest can’t be trusted.</p>
+
+<h1 id="3-other-comments">3) Other comments:</h1>
+<p>Keeping to the project scope, I did not implement other performance metrics other than simple returns and cumulative returns. This is a large issue for this backtest because we have no way of assessing risk. That said even if we did have a way of assessing risk, I’ve backtested a few strategies I scripted myself on TradingView using a multitude of performance metrics like max draw down, sharpe ratios, sortino ratios, profit factors etc. Additionally large amounts of robustness checking across parameters, brokers, and time frames. A good amount of the structure of this code base was inspired from TradingView’s structure of backtesting, including the idea to be able to scipt strategies simply and import them onto an existing price time series. Well in this case a series of individual events. I should mention that despite all my efforts to create a perfect backtested strategy and avoiding all possible sins of backtesting (Luo et al. 2014), the few strategies that met strong criterias across all performance metrics and robustness testing still failed to be productive in following year. There’s a large issue in multiple testing, selection bias and backtest overfitting that I haven’t been able to figure out yet. As far as I know backtest overfitting is an issue that hasn’t been solved. As far as quantitative reasearch goes, I put feature importance higher up than backtesting by a fair margin. As you might guess I’m pretty pessimitic about backtesting, I think it’s fun to see huge gains, but this project was enjoyable because ALL of my previous backtesting framework experience has been in vector based backtesting. Creating this framework might mean that if I do figure out a profitable strategy I could eventually hook this up to some websockets and use my code for something else besides research for once!</p>
+
+
+
+      </section>
+      <footer>
+        
+        <p>This project is maintained by <a href="https://github.com/JoshuaCuevasUofT">JoshuaCuevasUofT</a></p>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+  </body>
+</html>
