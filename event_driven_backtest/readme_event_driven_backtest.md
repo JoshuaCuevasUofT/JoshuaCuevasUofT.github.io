@@ -1,3 +1,5 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/2.3.1/zoom.min.js"></script>
+
 # Event Driven Backtesting Framework Project 2024
 ### Motivations
 This project was completed during the intermediate stage of an interview process for asset allocation research for a major Canadian bank.
@@ -36,30 +38,31 @@ In this project I ensured the scalability of modules from
 
 I've provided a flowchart to illustrate the modularity and interations between classes in this project.
 
-[Regression Analysis of Student Success Factors: STA302 Final Project](event_driven_backtest\Event Driven Backtesting Flow Chart.pdf)
+### Structural Flowchart
+<img src="Event Driven Backtesting Flow Chart.png?raw=true" class="zoom"/>
 
 # Outputs and findings.
 
 ### Technical Crossover Portfolio Value
-<img src="tco portfolio value.png?raw=true"/>
+<img src="tco portfolio value.png?raw=true" class="zoom"/>
 
 ### Technical Crossover Equity Curve
-<img src="tco equity curve.png?raw=true"/>
+<img src="tco equity curve.png?raw=true" class="zoom"/>
 
 ### Technical Crossover Signal Plot and Highlights
-<img src="tco signal highlights.png?raw=true"/>
+<img src="tco signal highlights.png?raw=true" class="zoom"/>
 
 ### Techical Crossover Trade Log
-<img src="tco trade logs.PNG?raw=true"/>
+<img src="tco trade logs.PNG?raw=true" class="zoom"/>
 
 ### Buy Put options Strategy Portfolio Value
-<img src="buy put options portfolio value.png?raw=true"/>
+<img src="buy put options portfolio value.png?raw=true" class="zoom"/>
 
 ### MultiAsset Portfolio Value
-<img src="multi asset portfolio value.png?raw=true"/>
+<img src="multi asset portfolio value.png?raw=true" class="zoom"/>
 
 ### MultiAsset Trade Logs
-<img src="multi asset trade logs.PNG?raw=true"/>
+<img src="multi asset trade logs.PNG?raw=true" class="zoom"/>
 
 
 ### Final Thoughts
