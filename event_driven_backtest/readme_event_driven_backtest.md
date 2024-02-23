@@ -42,7 +42,7 @@ I've provided a flowchart to illustrate the modularity and interations between c
 <img src="Event Driven Backtesting Flow Chart.png?raw=true" class="zoom"/>
 (JS Zoom script isn't compatible with github, please try right click -> open image in new tab)
 
-# Outputs and findings.
+# Outputs and findings
 
 ### Technical Crossover Portfolio Value
 <img src="tco portfolio value.png?raw=true" class="zoom"/>
@@ -57,7 +57,7 @@ I've provided a flowchart to illustrate the modularity and interations between c
 <img src="tco trade logs.PNG?raw=true" class="zoom"/>
 
 ### Buy Put options Strategy Portfolio Value
-<img src="buy put options portfolio value.png?raw=true" class="zoom"/>
+<img src="sell call options portfolio value.png?raw=true" class="zoom"/>
 
 ### MultiAsset Portfolio Value
 <img src="multi asset portfolio value.png?raw=true" class="zoom"/>
