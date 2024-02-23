@@ -1,4 +1,4 @@
-## Portfolio V1
+## Portfolio V1.1
 
 ---
 ### Trading Analytics
