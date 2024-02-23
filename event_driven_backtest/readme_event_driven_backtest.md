@@ -41,25 +41,25 @@ I've provided a flowchart to illustrate the modularity and interations between c
 # Outputs and findings.
 
 ### Technical Crossover Portfolio Value
-<img src="event_driven_backtest\tco portfolio value.png?raw=true"/>
+<img src="tco portfolio value.png?raw=true"/>
 
 ### Technical Crossover Equity Curve
-<img src="event_driven_backtest\tco equity curve.png?raw=true"/>
+<img src="tco equity curve.png?raw=true"/>
 
 ### Technical Crossover Signal Plot and Highlights
-<img src="event_driven_backtest\tco signal highlights.png?raw=true"/>
+<img src="tco signal highlights.png?raw=true"/>
 
 ### Techical Crossover Trade Log
-<img src="event_driven_backtest\tco trade logs.PNG?raw=true"/>
+<img src="tco trade logs.PNG?raw=true"/>
 
 ### Buy Put options Strategy Portfolio Value
-<img src="event_driven_backtest\buy put options portfolio value.png?raw=true"/>
+<img src="buy put options portfolio value.png?raw=true"/>
 
 ### MultiAsset Portfolio Value
-<img src="event_driven_backtest\multi asset portfolio value.png?raw=true"/>
+<img src="multi asset portfolio value.png?raw=true"/>
 
 ### MultiAsset Trade Logs
-<img src="event_driven_backtest\event_driven_backtest\multi asset trade logs.PNG?raw=true"/>
+<img src="multi asset trade logs.PNG?raw=true"/>
 
 
 ### Final Thoughts
