@@ -38,8 +38,9 @@ In this project I ensured the scalability of modules from
 
 I've provided a flowchart to illustrate the modularity and interations between classes in this project.
 
-### Structural Flowchart
+### Structural Flowchart 
 <img src="Event Driven Backtesting Flow Chart.png?raw=true" class="zoom"/>
+(JS Zoom script isn't compatible with github, please try right click -> open image in new tab)
 
 # Outputs and findings.
 
