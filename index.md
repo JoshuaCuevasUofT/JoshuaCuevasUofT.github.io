@@ -4,7 +4,7 @@
 ### Trading Analytics
 
 [Event Driven Backtesting Framework](/event_driven_backtest/readme_event_driven_backtest.md)
-<img src="event_driven_backtest\tco trade logs.PNG?raw=true"/>
+<img src="event_driven_backtest\tco signal highlights.png"/>
 
 ---
 

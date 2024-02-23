@@ -41,7 +41,6 @@ I've provided a flowchart to illustrate the modularity and interations between c
 # Outputs and findings.
 
 ### Technical Crossover Portfolio Value
-
 <img src="event_driven_backtest\tco portfolio value.png?raw=true"/>
 
 ### Technical Crossover Equity Curve
@@ -61,7 +60,6 @@ I've provided a flowchart to illustrate the modularity and interations between c
 
 ### MultiAsset Trade Logs
 <img src="event_driven_backtest\event_driven_backtest\multi asset trade logs.PNG?raw=true"/>
-
 
 
 ### Final Thoughts
