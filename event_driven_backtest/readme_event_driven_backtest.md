@@ -27,13 +27,13 @@ Two strategies were conducted on a preset data set through an event handler and 
     - Differing contract maturities
 
 ### Output requirements
-    - Illustrate the net asset value of the portfolio through a time series chart.
-    - Thoroughly record all transactions executed while adhering to the strategies.
+- Illustrate the net asset value of the portfolio through a time series chart.
+- Thoroughly record all transactions executed while adhering to the strategies.
 
 ## Software Principles and Scalability:
 A large part about quant finance research is being up to date. There are infinite insights in data and the finance industry is widely known to be the most competitive industry when it comes to profitable insights. It's *imperitive* to be able to scale up 99% of the components within the framework. This means an incredible attention to detail when it comes to the modularity of the framework and software structure. 
 
-In this project I ensured the scalability of modules from
+In this project I ensured the scalability of:
 0. Data Collection (Event handler, API data collection/uniformity)
 1. Indicators
 2. Signals
