@@ -82,3 +82,119 @@ Keeping to the project scope, I did not implement other performance metrics othe
 
 <img src="codebase feb2024.PNG?raw=true" class="zoom"/>
 
+# Code Sample MultiAsset Rebalancing Strategy
+
+```python
+class MultiAsset_Options_Rebalancing(BaseStrategy):
+    """A strategy for multi-asset rebalancing using options.
+    
+    Attributes:
+        entry_binary (pd.Series): Binary series indicating whether a buy signal is generated (True)
+            or not (False).
+        existing_order (Order): The existing order for the strategy, if any.
+        current_index (int): The current index of the security data.
+
+        call_strategy (BaseStrategy): The strategy for selling out-of-the-money call options.
+        put_strategy (BaseStrategy): The strategy for buying out-of-the-money put options.
+        entry_binary2 (pd.Series): Binary series indicating whether a buy signal is generated for the second strategy(True)
+
+        
+    Methods:
+        _strategy_logic(): Generates signals based on the SMA crossover.
+        get_entry_binary(): Returns the entry binary series.
+        process_new_data(new_data): Processes new data and executes orders based on the strategy logic.
+        rebalance(new_data): Rebalances the portfolio based on new data.
+        
+        get_data(): Returns the security data.
+        get_execution_api(): Returns the execution API.
+        plot_strategy(): Plots the strategy on a price chart.
+    
+    """
+    
+    def __init__(self) -> None:
+        super().__init__()
+        self.call_strategy = Sell_OTM_Call_Options_105_1M()
+        self.put_strategy = Buy_OTM_Put_Options_95_3M()
+        self.entry_binary2 = pd.Series(dtype=bool)
+        self.current_index = 0
+        self.existing_order = None
+        self.entry_binary = pd.Series(dtype=bool)
+        
+    def _strategy_logic(self):
+        """Generate signals for multi-asset rebalancing."""
+        
+        if not np.isnan(self.security_data.iloc[-1]['OTM105call_Premium']):
+            self.entry_binary.loc[self.current_index] = True
+        else:
+            self.entry_binary.loc[self.current_index] = False
+            
+        if not np.isnan(self.security_data.iloc[-1]['OTM95put_Premium']):
+            self.entry_binary2.loc[self.current_index] = True
+        else:
+            self.entry_binary2.loc[self.current_index] = False
+        self.current_index += 1
+
+    def _optimize_portfolio(self, premium_to_buy_put_options=0, premium_to_sell_call_options=0, underlying_asset_price=0, available_capital=0):
+        """
+        Optimize the portfolio by calculating the position size based on the given parameters.
+
+        Parameters:
+        premium_to_buy_put_options (float): The premium to buy put options.
+        premium_to_sell_call_options (float): The premium to sell call options.
+        underlying_asset_price (float): The price of the underlying asset.
+        available_capital (float): The available capital for investment.
+
+        Returns:
+        float: The position size for the optimized portfolio.
+        """
+        if np.isnan(premium_to_sell_call_options):
+            premium_to_sell_call_options = 0
+        if np.isnan(premium_to_buy_put_options):
+            premium_to_buy_put_options = 0
+            
+        M = underlying_asset_price - premium_to_sell_call_options + premium_to_buy_put_options
+        
+        return (available_capital/M).item()
+    
+    def process_new_data(self, new_data):
+        """Process new data and trigger rebalancing if necessary."""
+        
+        self.security_data = pd.concat([self.security_data, new_data])
+        self._strategy_logic()
+        
+        if self.entry_binary.iloc[-1] or self.entry_binary2.iloc[-1]:
+            self.rebalance(new_data)
+            
+            
+    def rebalance(self, new_data):
+        """Rebalance the portfolio based on new data and an optimization algorithm."""
+        
+        call_premium = new_data['OTM105call_Premium'].values[0]
+        put_premium = new_data['OTM95put_Premium'].values[0]
+        available_capital = self.execution_module.get_portfolio_value()
+        
+        maximial_SPY_shares = self._optimize_portfolio(premium_to_buy_put_options=put_premium, premium_to_sell_call_options=call_premium, underlying_asset_price=new_data['Price'], available_capital=available_capital)
+        
+        print("Maximial SPY Shares:", maximial_SPY_shares)
+        
+        if self.existing_order is not None:
+            self.existing_order.set_close_order(new_data['Price'].values[0])
+            self.execution_module.execute_order(self.existing_order)
+            
+        Order = order.StockOrder('MultiAsset_Options_Rebalancing', 'Buy', 'SPY', new_data['Price'].values[0], new_data['timestamp'].values[0], quantity=maximial_SPY_shares)
+        
+        self.execution_module.execute_order(Order)
+        if Order.is_executed():
+            self.existing_order = Order
+            
+        self.call_strategy.change_order_percent_portfolio(None)
+        self.call_strategy.change_order_quantity(maximial_SPY_shares)
+        self.call_strategy.process_new_data(new_data)
+        
+        if self.entry_binary2.iloc[-1]:
+            self.put_strategy.change_order_percent_portfolio(None)
+            self.put_strategy.change_order_quantity(maximial_SPY_shares)
+            self.put_strategy.process_new_data(new_data)
+            
+        return maximial_SPY_shares
+```
