@@ -12,17 +12,36 @@ a:hover, a:focus {
   font-weight: bold;
 }
 
-/* code, pre {
+code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  background-color: #6a6869; 
+  /* background-color: #1d1b1c;  */
   color: #f0f0f0; 
 } 
-*/
 
-code, pre {
+/* code, pre {
   font-family: inherit;
   background-color: inherit;
   color: inherit;
+} */
+
+.highlight {
+  background-color: #121212;
+  /* Your other styles here */
+}
+
+.highlight .k, .highlight .kv {
+  color: #0ec337;
+  font-weight: bold;
+}
+
+.highlight .ow {
+  color: #0ebd04;
+  font-weight: bold;
+}
+
+.highlight .o {
+  color: #09c521;
+  font-weight: bold;
 }
 
 
