@@ -1,6 +1,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/zoom.js/2.3.1/zoom.min.js"></script>
 
 # Event Driven Backtesting Framework Project 2024
+
+### Structural Flowchart 
+<img src="Event Driven Backtesting Flow Chart.png?raw=true" class="zoom"/>
+(JS Zoom script isn't compatible with github, please try right click -> open image in new tab)
+
 ### Motivations
 This project was completed during the intermediate stage of an interview process for asset allocation research for a major Canadian bank.
 
@@ -36,11 +41,7 @@ In this project I ensured the scalability of modules from
 4. Order Creation and details
 5. Execution module (API order maker)
 
-I've provided a flowchart to illustrate the modularity and interations between classes in this project.
-
-### Structural Flowchart 
-<img src="Event Driven Backtesting Flow Chart.png?raw=true" class="zoom"/>
-(JS Zoom script isn't compatible with github, please try right click -> open image in new tab)
+I've provided a flowchart to illustrate the modularity and interations between classes in this project. See first image.
 
 # Outputs and findings
 
