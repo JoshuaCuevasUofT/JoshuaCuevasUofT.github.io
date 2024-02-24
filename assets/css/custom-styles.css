@@ -12,11 +12,19 @@ a:hover, a:focus {
   font-weight: bold;
 }
 
-code, pre {
+/* code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  background-color: #6a6869; /* Your preferred dark color */
-  color: #f0f0f0; /* Egg white text color */
+  background-color: #6a6869; 
+  color: #f0f0f0; 
+} 
+*/
+
+code, pre {
+  font-family: inherit;
+  background-color: inherit;
+  color: inherit;
 }
+
 
 dt {
   color:#f0f0f0;
