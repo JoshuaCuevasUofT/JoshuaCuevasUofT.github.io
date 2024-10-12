@@ -3,7 +3,7 @@
 ---
 ### Trading Analytics
 
-[Event Driven Backtesting Framework](/event_driven_backtest/readme_event_driven_backtest.md)
+[Event Driven Backtesting Framework 2023](/event_driven_backtest/readme_event_driven_backtest.md)
 
 <img src="event_driven_backtest/tco signal highlights.png" alt="TCO Signal Highlights"/>
 
@@ -13,16 +13,16 @@
 
 ### Datascience Projects
 
+[Regression Analysis of Student Success Factors: STA302 Final Project](/stats_project)
+<img src="images/misc pics/school project.png?raw=true"/>
+
+---
 [Urban Pulse: Features and Regression Models](/project2_4and5)
 <img src="images/project 2/cumul.png?raw=true"/>
 
 ---
 [Urban Pulse: Analyzing Tip Amounts and Drop-off Distance](/course1)
 <img src="images/project1/cumul.png?raw=true"/>
-
----
-[Regression Analysis of Student Success Factors: STA302 Final Project](/stats_project)
-<img src="images/misc pics/school project.png?raw=true"/>
 
 ---
 
