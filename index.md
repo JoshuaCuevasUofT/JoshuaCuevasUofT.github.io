@@ -4,7 +4,10 @@
 ### Trading Analytics
 
 [Event Driven Backtesting Framework](/event_driven_backtest/readme_event_driven_backtest.md)
-<img src="event_driven_backtest\tco signal highlights.png"/>
+
+<img src="event_driven_backtest/tco signal highlights.png" alt="TCO Signal Highlights"/>
+
+<img src="event_driven_backtest/Event Driven Backtesting Flow Chart.png" alt="Event Driven Backtesting Flow Chart"/>
 
 ---
 
